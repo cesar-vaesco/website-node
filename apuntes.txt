@@ -1,0 +1,15 @@
+Nodemon
+
+    nodemon es una herramienta que ayuda a desarrollar aplicaciones basadas en node.js al reiniciar automáticamente
+     la aplicación de nodo cuando se detectan cambios en el directorio.
+
+     nodemon no requiere ningún cambio adicional en su código o método de desarrollo.
+     nodemon es un contenedor de reemplazo para el nodo. Para usar nodemon, reemplace la palabra nodo en la línea de comando cuando ejecute su script.
+
+      ejemplo en archivo packaje.json de nodemon
+
+      "scripts": {
+          "dev": "nodemon src/index.js"
+      }
+
+      Y para ejecutar el script se escribe lo siguiente: npm run dev
