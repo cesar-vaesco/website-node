@@ -1,0 +1,9 @@
+{
+    "name": "sitio-web-node",
+    "version": "1.0.0",
+    "description": "Página web con node.js",
+    "main": "index.js",
+    "scripts": {},
+    "author": "César Vargas Escorcia",
+    "license": "ISC"
+}
