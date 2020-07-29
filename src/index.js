@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 const colors = require('colors');
 
 //Settings - configuraciones
@@ -10,7 +11,9 @@ app.set('port', process.env.PORT || 3000);
 
 //routes
 app.get('/', (req, res) => {
-    res.send('Hello world!');
+    // res.sendFile('./index.html');
+    console.log(__dirname + '/views/index.html');
+    console.log(path.join(__dirname, '/views/index.html'));
 });
 
 //static files

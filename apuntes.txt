@@ -13,3 +13,33 @@ Nodemon
       }
 
       Y para ejecutar el script se escribe lo siguiente: npm run dev
+
+
+  __dirname
+
+  dirname nos entrega la ruta de un archivo, ejemplo al visualizar __dirname en con console.log(__dirname)
+  se visualizara lo siguyiente:
+
+                                 C:\Users\thece\Desktop\sitio-web-node\src
+
+
+Módulo path
+
+  El módulo  path proporciona utilidades para trabajar con rutas de archivos y directorios
+
+  ruta sin path:
+
+              console.log(__dirname + '/views/index.html');
+              salida:
+                  C:\Users\thece\Desktop\sitio-web-node\src/views/index.html
+
+
+ruta con path, usando su método join
+
+              console.log(path.join(__dirname, '/views/index.html'));
+              salida:
+                  C:\Users\thece\Desktop\sitio-web-node\src\views\index.html
+
+
+El modulo path identifica el sistema operativo con el que se trabaja y acomoda los slash (/)
+según la orientación que se requiera
