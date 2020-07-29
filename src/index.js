@@ -3,6 +3,7 @@ const app = express();
 const path = require('path');
 const colors = require('colors');
 
+
 //Settings - configuraciones
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views')); //Se le indica a node donde va a ir para consultar las vistas y renderizarlas
@@ -11,12 +12,7 @@ app.set('view engine', 'ejs');
 
 
 //routes
-app.get('/', (req, res) => {
-    res.render('index', {
-        title: 'First webSite'
-    });
-
-});
+app.use(require('./routes/index'));
 
 //static files
 
