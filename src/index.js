@@ -11,9 +11,12 @@ app.set('port', process.env.PORT || 3000);
 
 //routes
 app.get('/', (req, res) => {
-    // res.sendFile('./index.html');
-    console.log(__dirname + '/views/index.html');
-    console.log(path.join(__dirname, '/views/index.html'));
+    // /** Identificando la ruta de la vista */
+    // console.log(__dirname + '/views/index.html');
+    // console.log(path.join(__dirname, '/views/index.html'));
+    const indexVista = path.join(__dirname, '/views/index.html');
+    res.sendFile(indexVista);
+
 });
 
 //static files
