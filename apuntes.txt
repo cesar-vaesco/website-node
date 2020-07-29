@@ -65,3 +65,8 @@ que va a leer las vistas con extensión html y las va arenderizar como ejs
                 });
 
 La vista contact.html es renderizada pero anteriormente ya se ha indicado que va poder hacer uso de sintaxis ejs
+
+
+Fondos de degradado que estan escritos con css
+
+                    https://uigradients.com
