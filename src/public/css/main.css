@@ -1,9 +1,9 @@
 body {
-    background: #1D4350;
+    background: #360033;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A43931, #1D4350);
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A43931, #1D4350);
+    background: linear-gradient(to right, #0b8793, #360033);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     font-family: 'Krona One', sans-serif;
