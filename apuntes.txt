@@ -43,3 +43,25 @@ ruta con path, usando su método join
 
 El modulo path identifica el sistema operativo con el que se trabaja y acomoda los slash (/)
 según la orientación que se requiera
+
+
+
+Views - ejs - html
+
+Es posible usar las vistas con extensión html y decirle a node que en estos archivos se puede usar sintaxis de ejs
+para ellos se requiere hacer lo siguiente:
+
+ 1.- En el archivo de configuración de servidor se declara la siguiente sintaxis:
+
+               app.engine('html', require('ejs').renderFile);
+
+Se le indica a node donde va a ir para consultar las vistas y renderizarlas y a la vez decirle a node
+que va a leer las vistas con extensión html y las va arenderizar como ejs
+
+2.- En el archvio de las rutas se indica que el archivo lleva la extención html, ejemplo:
+
+                router.get('/contact', (req, res) => {
+                    res.render('contact.html', { title: 'Contact' });
+                });
+
+La vista contact.html es renderizada pero anteriormente ya se ha indicado que va poder hacer uso de sintaxis ejs
