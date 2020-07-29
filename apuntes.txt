@@ -70,3 +70,12 @@ La vista contact.html es renderizada pero anteriormente ya se ha indicado que va
 Fondos de degradado que estan escritos con css
 
                     https://uigradients.com
+
+Animate.css
+
+Animate.css es una biblioteca de animaciones entre navegadores listas para usar para usar en sus proyectos web. Ideal para enfatizar, páginas de inicio, controles deslizantes y sugerencias para guiar la atención.
+
+                        https://animate.style/
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
