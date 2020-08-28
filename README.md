@@ -16,6 +16,6 @@ Repositorio que contienen código de un proyecto básico que crean una pa´gina 
     * Se reutiliza código html usando el concepto de partials
 
 <p align="center">
-  <img src="src\public\img\vista-home.png" width="500" height="300"title="metodo-get">
-  <img src="src\public\img\vista-contacto.png" width="500" height="300"alt="consultar-usuarios">
+  <img src="src/public/img/vista-home.png" width="500" height="300"title="metodo-get">
+  <img src="src/public/img/lobo-logo.png" width="500" height="300"alt="consultar-usuarios">
 </p>
